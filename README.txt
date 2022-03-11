@@ -2,7 +2,7 @@ This project is a landing page for a shoe company.
 The page uses white, grays, and blacks for its colors.
 The project uses HTML5, CSS3, JavaScript (ES6), jQuery.js, and React.js.
 
-index.html:
+ShoeCompany.html:
 - simple index page that uses many script tags to incorprorate React.js 
 - script tag at bottom that manipulates the DOM through ReactDOM.render()
 - also contains few lines of jQuery with querySelector
@@ -10,7 +10,7 @@ index.html:
 images (folder):
 - contains images for web page
 
-style.css:
+Shoe.css:
 - CSS styling that uses shadows, flex box, and other general css concepts. 
 
 Navbar.js:
