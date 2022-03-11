@@ -1,4 +1,4 @@
-This project is a landing page for a shoe company. 
+This project is a landing page for a shoe company that is responsive for mobile and desktoesp devices.
 The page uses white, grays, and blacks for its colors.
 The project uses HTML5, CSS3, JavaScript (ES6), jQuery.js, and React.js.
 
