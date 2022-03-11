@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+        
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="shoe.css" type ="text/css">
+        
+    </head>
+
+    <body>
+
+        <!-- <a class ="back" href = "../portfolio.html"><- BACK</a> -->
+        
+        <div id ="navbar"></div>
+        <div id ="main-content"></div>
+        <div id ="footer"></div>
+
+        <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <script src ="Navbar.js" type ="text/babel"></script>
+        <script src ="Footer.js" type ="text/babel"></script>
+        <script src ="MainContent.js" type ="text/babel"></script>
+        <script src ="ShoeCard.js" type ="text/babel"></script>
+        <script type="text/babel">
+        ReactDOM.render(<Navbar />, document.querySelector("#navbar"));
+        ReactDOM.render(<MainContent />, document.querySelector("#main-content"));
+        ReactDOM.render(<Footer />, document.querySelector("#footer"));
+        </script>
+    </body>
+</html>
